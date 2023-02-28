@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(218, 23%, 16%);
+}
+
+h3 {
+    font-size: 14px;
+    letter-spacing: 0.3rem;
+    color: hsl(150, 100%, 66%);
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+main {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 1rem;
+}
+
+main p {
+    max-width: 80%;
+    font-size: 16px;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+    padding: 1rem 0rem;
+}
+
+/* BUTTON */
+
+#diceBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    transform: translateY(1.3rem);
+}
+
+/* IMAGES */
+
+.line {
+    width: 90%;
+}
+
+#dice {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 2rem;
+}
+
