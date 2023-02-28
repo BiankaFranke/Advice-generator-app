@@ -1,5 +1,3 @@
-console.log('it works');
-
 // DECLARATIONS
 const url = 'https://api.adviceslip.com/advice';
 const dice = document.querySelector('#dice');

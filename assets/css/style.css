@@ -57,10 +57,18 @@ main p {
     transform: translateY(1.3rem);
 }
 
+#diceBtn:hover {
+    box-shadow: 0 0 13px hsl(150, 100%, 66%);
+}
+
 /* IMAGES */
 
 .line {
     width: 90%;
+}
+
+#lineDesktop {
+    display: none;
 }
 
 #dice {
@@ -86,3 +94,12 @@ footer {
     padding-bottom: 2rem;
 }
 
+@media only screen and (min-width: 600px) {
+    #lineDesktop {
+        display: block;
+    }
+
+    #lineMobile {
+        display: none;
+    }
+}
